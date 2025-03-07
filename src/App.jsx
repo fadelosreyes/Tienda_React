@@ -5,8 +5,7 @@ import Footer from './components/Footer';
 import HomePage from './pages/HomePage';
 import OtherPage from './pages/OtherPage';
 import { CartProvider } from './context/CartContext';
-import './styles.css'; // Asegúrate de que la ruta es correcta.
-
+import './styles.css'; 
 const App = () => {
   return (
     <CartProvider>
